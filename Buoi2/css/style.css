@@ -1,0 +1,30 @@
+#top h1 {
+    font-size: 36px;
+    float: right;
+    line-height: 50px;
+
+}
+hr{
+    background-color: aqua;
+}
+#mid #left{
+    width: 15%;
+    clear: right;
+    min-height: 600px;
+    background-color: aqua;
+    float: left;
+}
+#mid #right{
+    width: 80%;
+    float: right;
+}
+#right h1{
+    color: aqua;
+}
+#box{
+    float: right;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: aqua;
+    border: blue solid 2px;
+}
