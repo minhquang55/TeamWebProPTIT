@@ -1,0 +1,34 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 15px;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.right-up{
+    display: flex;
+    flex-direction: row;
+}
+.right-down{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+}
+
+.left-list{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 40%;
+}
