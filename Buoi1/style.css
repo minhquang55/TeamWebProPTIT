@@ -1,0 +1,37 @@
+body{
+    background-color: #FFFAF0;
+    margin: 0px;
+}
+#top-div{
+    text-align: center;
+    min-height: 400px;
+    margin:0px auto 15px auto;
+}
+#img{
+    width: 20%;
+    float: left;
+    margin-left: 230px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+#mid-div table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 15px auto 15px auto;
+}
+#mid-div th, td,tr {
+    padding:10px;
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+#mid-div th{
+    background-color: green;
+    text-align: center;
+}
+#mid-div table .name{
+    background-color: yellow;
+}
+.money{
+    text-align: right;
+}
