@@ -1,0 +1,123 @@
+body{
+    font-size: 30px;
+}
+.container{
+    background-color: #FDAFB1;
+    padding: 20px 20px;
+}
+.top-container{
+    min-height: 70px;
+    margin: 20px 20px;
+    background-color: #98D1C7;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    margin: 20px 20px;
+}
+.bot-container{
+    min-height: 70px;
+    margin: 20px 20px;
+    background-color: #98D1C7;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    min-height: 450px;
+
+    background-color: #62B7B6;
+    color: #FFFFFF;
+
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #FA7A7B;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 20% 40%;
+
+    padding: 20px 20px;
+}
+.img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #FFFFFF;
+    color: #83817F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.Img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1 {
+    background-color: #D6D5D5;
+    color: #FFFFFF;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    background-color: #D6D5D5;
+    color: #FFFFFF;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3 {
+    background-color: #D6D5D5;
+    color: #FFFFFF;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
