@@ -43,7 +43,10 @@ a {
     
     width: 14.5%;
 }
-
+.menu-course {
+    width: 650px;
+    height: 220px;
+}
 .IELTS_ONLINE_TRAINING {
     position: absolute;
     top: 45px;
