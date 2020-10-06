@@ -119,9 +119,8 @@ a {
 .form-container {
     width: 650px;
     height: 250px;
-    position: relative;
-
-   
+    position: absolute;
+    top: 220px;
 
     background-color: #fff;
 }
@@ -133,12 +132,17 @@ a {
     
 }
 form {
+    display: flex;
+    flex-direction: column;
+
     position: absolute;
-    top:50px;
-    left: 50px;
+    top: 30px;
+    left: 40px;
 }
-table {
-    padding: 20px;
+
+input {
+    width: 350px;
+    padding: 7px;
 }
 #ID1_Vocabularies_for_IELTS_Spe {
     position: absolute;
@@ -155,7 +159,7 @@ table {
 .text {
     font-family: Arial;
 	font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     color: rgba(16,16,16,1);
 }
@@ -163,5 +167,34 @@ table {
 td {
     text-align: right;
 }
+
+.form-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.form-bottom a {
+    font-family: Arial;
+    font-size: 16px;
+    color:#3C5C9E;
+}
+
+.sign-in-btn {
+    font-family: arial;
+    font-size: 22px;
+    background-color: #B42227;
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 9px;
+    border-style: none;
+
+    margin-left: 20px;
+    
+}
+
+
 
 
